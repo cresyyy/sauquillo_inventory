@@ -1,0 +1,36 @@
+body {
+	font-family: "Belanosima", sans-serif;
+	font-size: 2rem;
+	background-color: rgb(214, 170, 255);
+}
+input {
+	height: 50px;
+	width: 200px;
+	font-size: 1.2em;
+}
+h2{
+	color: purple;
+}
+
+#submitButton {
+	font-family: "Belanosima", sans-serif;
+	background-color: rgb(182, 5, 182);
+	border: none; 
+	border-radius: 5px;
+	color: white; 
+	text-align: center;
+	font-size: 18px; 
+	margin: 4px 2px; 
+	cursor: pointer; 
+	transition: background-color 0.3s ease; 
+  }
+  
+  #submitButton:hover {
+	background-color: purple; 
+  }
+
+table, th, td {
+	width: 500px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
